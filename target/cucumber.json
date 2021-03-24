@@ -1,0 +1,431 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T18:09:24.159Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6747385900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add Place",
+        "description": "",
+        "id": "use-different-to-update-a-location;add-place;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 82004600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create a valid endpoint and a valid payload with \"onkar\" ,\"sikar\" and \"sapnish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"onkar\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"sikar\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"sapnish\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.create_a_valid_endpoint_and_a_valid_payload_with_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 975055800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we hit the \"addPlaceAPI\" using \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.we_hit_the_using_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19001100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the response \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19001100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the response \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44002500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Print the \"place_id\" in the logs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"place_id\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.print_the_in_the_logs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T18:09:32.225Z",
+        "before": [
+          {
+            "result": {
+              "duration": 820046900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Add Place",
+        "description": "",
+        "id": "use-different-to-update-a-location;add-place;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Create a valid endpoint and a valid payload with \"Riona\" ,\"Rajasthan\" and \"English\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Riona\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Rajasthan\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"English\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.create_a_valid_endpoint_and_a_valid_payload_with_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752043000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we hit the \"addPlaceAPI\" using \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.we_hit_the_using_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24001400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the response \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51002900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the response \"scope\" is \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scope\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"APP\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52003000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Print the \"place_id\" in the logs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"place_id\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.print_the_in_the_logs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T18:09:34.136Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000057200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Delete Place",
+        "description": "",
+        "id": "use-different-to-update-a-location;delete-place",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29001700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Please enter the delete Place Payload",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.please_enter_the_delete_place_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2564146600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "we hit the \"deletePlaceAPI\" using \"post\" method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.we_hit_the_using_method(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the response is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18001100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Validate the response \"status\" is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.validate_the_response_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteplace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Use different to update a location",
+    "description": "",
+    "id": "use-different-to-update-a-location",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LocationUpdates.feature",
+    "tags": []
+  }
+]
